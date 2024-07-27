@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #ff9211;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 300px;
+}
+.icon-container{
+    display: flex;
+}
+#bitcoin-icon, #core-icon{
+    width: 150px;
+    height: 100px;
+}
+#cryptoed-icon{
+    margin-right: 100px;
+}
+#courses-icon{
+    margin-left: 100px;
+}
+#help-icon{
+    margin-left: 20px;
+}
+#cart-icon{
+    margin-left: 10px;
+}
+#profile-icon{
+    margin-left: 10px;
+}
+main, footer{
+    background-color: #f9f9f9;
+}
+.mainpage-container{
+    margin-top: 50px;
+}
+.prefooter-container{
+   background-image: url(/Images/prefooter.svg);
+   margin-left: 100px;
+   margin-right: 100px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+footer{
+    background-color: #f9f9f9;
+    padding-left: 20px;
+}
